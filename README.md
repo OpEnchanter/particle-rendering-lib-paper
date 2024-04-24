@@ -2,7 +2,7 @@
 
 A simple Minecraft plugin that can use particles to render shapes
 
-Usage:
+**Usage:**
 <br>
 `/draw` : Draw a shape
 <br>
