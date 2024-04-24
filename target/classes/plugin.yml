@@ -1,0 +1,8 @@
+name: particle-rendering-lib-paper
+version: '1.0-SNAPSHOT'
+main: pro.mclol.particlerenderinglibpaper.Particle_rendering_lib_paper
+api-version: '1.20'
+commands:
+  draw:
+    description: Draw a shape out of particles
+    usage: /<command>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="particle-rendering-lib-paper:jar">
+    <output-path>$USER_HOME$/Desktop/MCLOL TEST SERVER/plugins</output-path>
+    <root id="archive" name="particle-rendering-lib-paper.jar">
+      <element id="module-output" name="particle-rendering-lib-paper" />
+    </root>
+  </artifact>
+</component>
