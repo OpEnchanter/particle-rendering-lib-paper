@@ -8,7 +8,7 @@ public class renderer {
         for (int i = 0; i<=steps; i++){
             double t = (double) (i + 1) / steps;
             Location current = a.clone().add((b.clone().subtract(a)).multiply(t));
-            a.getWorld().spawnParticle(particle, current, 0);
+            a.getWorld().spawnParticle(particle, current, 1);
         }
     }
     public void drawPoly(Particle particle, Integer steps, Location a, Location b, Location c, Location d, Location e, Location f, Location g, Location h){

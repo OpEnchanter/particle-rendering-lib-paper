@@ -44,7 +44,7 @@ public final class Particle_rendering_lib_paper extends JavaPlugin implements Co
                 b.setX(Double.parseDouble(args[2].split(",")[0]));
                 b.setY(Double.parseDouble(args[2].split(",")[1]));
                 b.setZ(Double.parseDouble(args[2].split(",")[2]));
-                rend.drawLine(Particle.FLAME, 300, a, b);
+                rend.drawLine(Particle.ASH, 300, a, b);
             } else if (args[0].equalsIgnoreCase("poly")){
                 sender.sendMessage("drawing");
                 renderer rend = new renderer();
@@ -80,7 +80,7 @@ public final class Particle_rendering_lib_paper extends JavaPlugin implements Co
                 h.setX(Double.parseDouble(args[8].split(",")[0]));
                 h.setY(Double.parseDouble(args[8].split(",")[1]));
                 h.setZ(Double.parseDouble(args[8].split(",")[2]));
-                rend.drawPoly(Particle.FLAME, 300, a, b, c, d, e, f, g, h);
+                rend.drawPoly(Particle.ASH, 300, a, b, c, d, e, f, g, h);
             } else if(args[0].equalsIgnoreCase("circle")){
                 sender.sendMessage("drawing");
                 renderer rend = new renderer();
@@ -89,7 +89,7 @@ public final class Particle_rendering_lib_paper extends JavaPlugin implements Co
                 a.setY(Double.parseDouble(args[1].split(",")[1]));
                 a.setZ(Double.parseDouble(args[1].split(",")[2]));
                 Double r = Double.parseDouble(args[2]);
-                rend.drawCircle(Particle.FLAME, 300, a, r);
+                rend.drawCircle(Particle.DRAGON_BREATH, 300, a, r);
             }
         }
         return true;
